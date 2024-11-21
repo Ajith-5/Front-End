@@ -1,0 +1,53 @@
+<div class="Header"><div class="one"><h1>Guess The number 1 to 10</h1>
+<input id="guessnumber">
+<button onclick="Change()">Check</button>
+<p id="Result">you are Wrong/Right</p>
+<p id="score">your score is 10</p>
+</div>
+</div>
+<script>
+//selecting the guessnumber ,score and paragraph
+var guessnumber=document.getElementById("guessnumber")
+var Result=document.getElementById("Result")
+var score=document.getElementById("score")
+// setting value 10 in the variable
+var totalscore=10
+//Generating  the random number using math function
+var randomnumber = Math.floor(Math.random()*10)+1
+
+function Change()
+{
+  //converting the string into number 
+    var enternumber = guessnumber.value
+    // using if function to display the result based on true or false
+  if (randomnumber==enternumber)
+  {
+    console.log("Right")
+    Result.textContent= "Right"
+
+  }
+  else{
+    console.log("Wrong")
+    Result.textContent="Wrong"
+    totalscore=totalscore-1
+    score.textContent="Score is"+totalscore
+  }
+}
+
+
+</script>
+<style>
+    
+.Header{
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(63, 102, 137);
+}
+.one{
+    color: aliceblue;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+</style>

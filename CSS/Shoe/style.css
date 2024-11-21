@@ -1,0 +1,50 @@
+nav{
+    color: bisque;
+}
+h1{
+    text-align: center;
+}
+ul{
+    display: inline-block;
+    margin-left: 500px;
+}
+li:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+li{
+    display: inline;
+}
+.Shoe{
+    margin: 10px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    color: rgb(0, 0, 0);
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    height: 420px;
+    width: 250px ;
+}
+.Product{
+    padding: 30px;
+    text-align: center;
+    background-color: aliceblue;
+}
+.Order{
+    background-color: black;
+    color: aliceblue;
+    height: 30px;
+}
+.Order:hover{
+    cursor: pointer;
+    background-color: aliceblue;
+    color: black;
+}
+h2{
+    text-align: center;
+}
+table{
+    margin-left: 450px;
+}

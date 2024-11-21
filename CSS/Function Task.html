@@ -1,0 +1,107 @@
+
+
+<!-- Values displaying below input box -->
+
+<!-- <input id="Box" onkeyup="update()">
+<h1 id="result"></h1>
+<script>
+
+    var box=document.getElementById("Box")
+var result= document.getElementById("result")
+function update(){
+    result.textContent=box.value
+}
+</script> -->
+
+
+
+
+
+<!-- Creating elements by clicking the button -->
+
+<!-- <button onclick="update()">Add</button>
+<div id="result"></div>
+<script>
+var result=document.getElementById("result")
+function update()
+{
+//creating a new element by createElement function
+    var List=document.createElement("h1")
+List.textContent="Hello Wolrd"
+result.append(List)
+}
+</script> -->
+
+
+<!-- Changing the color inside the button -->
+
+<!-- 
+<button id="update" onclick="color()">Change</button>
+
+<script>
+var update=document.getElementById("update")
+function color(){
+
+update.style.backgroundColor="blue"
+
+}
+</script> -->
+
+
+
+
+<!-- Clicking the button so that the text display above from my style -->
+
+<!-- <h1 id="one">name</h1>
+<button id="two" onclick="update1()">John</button>
+<button id="three" onclick="update2()">Praveen</button>
+<button id="four" onclick="update3()">Jack</button>
+<script>
+var one=document.getElementById("one")
+ function update1(){
+
+   one.textContent="John"
+ }
+ function update2(){
+ one.textContent="Praveen"
+ }
+
+ function update3()
+ {
+    one.textContent="Jack"
+ }
+</script> -->
+
+
+
+
+<!-- Task done by Event object method -->
+
+<!-- <h1 id="result">name</h1>
+
+<button onclick="update(event)">John</button>
+<button onclick="update(event)">Jack</button>
+<button onclick="update(event)">Jimmy</button>
+<script>
+//selecting the h1 tag
+var result=document.getElementById("result")
+function update(event){
+result.textContent=event.target.textContent
+}    
+</script> -->
+
+
+<h1  onclick="deleteitems(event)">One</h1>
+<h1  onclick="deleteitems(event)">two</h1>
+<h1  onclick="deleteitems(event)">three</h1>
+<h1 onclick="deleteitems(event)">four</h1>
+<h1  onclick="deleteitems(event)">five</h1>
+
+<script>
+
+function deleteitems(event){
+
+     event.target.remove() 
+}
+</script>
+

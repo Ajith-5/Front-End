@@ -1,0 +1,57 @@
+ <!-- box model coding -->
+<!-- <style>
+    div{
+        background-color: rgb(146, 104, 97);
+        height: 200;
+        width: 400;
+        color: beige;
+        margin-top: 50px;
+        margin-left: 110px;
+        padding-top: 50px;
+        padding-left: 30px;
+        padding-right: 40px; 
+        border-color: rgb(241, 164, 21);
+        border-width: 20px;
+        border-style: solid;
+        border-radius: 20px;
+    }
+    h1{
+    padding: 30px;
+       text-align: center;
+    }
+    </style>
+        <h1 style="background-color: bisque;">Title will update soon</h1>
+    <div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum corrupti facere, magni saepe molestias temporibus iure laboriosam dolorem blanditiis amet!</p>
+    </div>
+     -->
+
+     
+
+<!-- using script changing the container -->
+     <div id="one">
+<h1>Hello World</h1>
+     </div>
+     <button onclick="change()">Click here</button>
+
+<style>
+    #one{
+        background-color:blueviolet;
+    color: aliceblue;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    padding-top: 20px;
+    transition: 5s;
+    }
+    button{
+        margin-left: 150px;
+        margin-top: 10px;
+    }
+</style>
+<script>
+    var box=document.getElementById("one")
+    function change(){
+       box.style.backgroundColor="red"
+    }
+</script> 

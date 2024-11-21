@@ -1,0 +1,56 @@
+html{
+    margin: 0;
+    background-color: black;
+
+}
+nav{
+    background-color: black;
+    height: 150px;
+    text-align: center;
+}
+div{
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+.header{
+    padding-top: 50px;
+    color: antiquewhite;
+}
+
+.one{
+    background-color: bisque;
+    height: 300px;
+    width: 300px;
+    position: relative;
+    top: 180px;
+    left: 100px;
+    z-index: 2;
+    border-color: rgb(73, 118, 158);
+    border-width: 5px;
+    border-style: solid;
+}
+.two{
+    background-color: aquamarine;
+    height: 350px;
+    width: 600px;
+    position: relative;
+    left: 150px;
+    top: -120px;
+    z-index: 1;
+}
+img{
+    height: 300px;
+    width: 300px;
+}
+p{
+    padding-left: 270px;
+    padding-top: 40px;
+}
+.three{
+
+}
+.Para{
+padding: 0;
+color: antiquewhite;
+}
