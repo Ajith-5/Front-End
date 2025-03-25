@@ -1,0 +1,54 @@
+#SP{
+    display: inline-block;
+    
+}
+body{
+    background-color: antiquewhite;
+}
+
+#SCR,#SCR option,#SelectOption{
+    display: inline;
+}
+#Box1{
+    background-color:darkgrey;
+    padding: 20px;
+    display: inline-block;
+    height: 300px;
+    width: 400px;
+}
+#Box2{
+    background-color: darkgrey;
+    padding: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    height: 300px;
+    width: 400px;
+}
+#CalendarBox{
+    margin-top: 20px;
+    padding: 10px;
+}
+#ExDate,#CalDate{
+    display: inline;
+    padding: 10px;
+}
+
+.Buy-container {
+    display: inline-block;
+    width: 400px;
+    margin-top: 50px;
+}
+.Buy-box {
+    margin-bottom: 20px;
+    
+}
+.space-box {
+    width:240px;
+    height: 25px;
+    margin-bottom: 20px;
+}
+.Sell-container{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+}
